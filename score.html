@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CVReader</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/score_style.css">
+    <script src="./javascript/parser.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <header class="navbar">
+        <div class="logo">
+            <img src="images/icons8-resume-100.png" alt="icon">
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="parser.html">CV Parser</a></li>
+                <li> <a href="score.html">Similarity</a></li>
+                <li> <a href="classifier.html">Classifier</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="row">
+        <div class="col-2">
+            <h1> Similarity Score</h1>
+        </div>
+        <br>
+        <div class="col2">
+
+            <div id="drop_zone_resume" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+                <p>Drop the <i>resume</i> here. </p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id="drop_zone_job" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+                <p>Drop the <i>job description</i> here. </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>
+    <div >
+        <ul class="fot">
+            <div class="col-md-4"> <span class="copyright"> Copyright &copy; CVReader 2023</span> </div>
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>
