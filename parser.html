@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/parser_style.css">
   <script src="./javascript/parser.js"></script>
+  <script src="./javascript/script.js"></script>
+
 
 </head>
 <body>
@@ -30,10 +32,13 @@
     </div>
     <br>
     <div class="col2">
-
-      <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
-        <p>Drop the <i>resume</i> here. </p>
+      <div class="button-container">
+        <button id="uploadButton">Upload your resume</button>
+        <input type="file" id="fileInput" accept=".pdf" style="display:none;">
       </div>
+      <!--<div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+        <p>Drop the <i>resume</i> here. </p>
+      </div>-->
 
     </div>
   </div>

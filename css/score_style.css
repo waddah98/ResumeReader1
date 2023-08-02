@@ -1,5 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 #drop_zone_resume, #drop_zone_job {
     border: 4px solid cornflowerblue;
     width: 200px;
     height: 100px;
+}
+
+.button-container{
+    font-size: 25px;
+    font-family: 'Montserrat', Arial, sans-serif;
 }

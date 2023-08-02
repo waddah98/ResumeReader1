@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/score_style.css">
     <script src="./javascript/parser.js"></script>
+    <script src="./javascript/script.js"></script>
 
 </head>
 <body>
@@ -30,17 +31,26 @@
         </div>
         <br>
         <div class="col2">
+            <div class="button-container">
+                <button id="ResumeUploadButton">Upload your resume</button>
+                <input type="file" id="ResumeFileInput" accept=".pdf" style="display:none;">
+            </div>
 
-            <div id="drop_zone_resume" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+            <!--<div id="drop_zone_resume" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
                 <p>Drop the <i>resume</i> here. </p>
+            </div>-->
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="button-container">
+                <button id="JobUploadButton">Upload the job description</button>
+                <input type="file" id="JobFileInput" accept=".pdf" style="display:none;">
             </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div id="drop_zone_job" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+
+            <!--<div id="drop_zone_job" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
                 <p>Drop the <i>job description</i> here. </p>
-            </div>
+            </div>-->
 
         </div>
     </div>
